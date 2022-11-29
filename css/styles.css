@@ -225,11 +225,11 @@ img {
 
 /* =========чим ми займаємося======= */
 
-.features-list-demo {
+.features__icon {
   width: 70px;
   height: 70px;
 }
-.features-list-demo-bg {
+.item__container {
   display: flex;
   justify-content: center;
   height: 120px;
@@ -239,10 +239,10 @@ img {
   background-color: #f5f4fa;
 }
 
-.works-item {
+.work__item {
   position: relative;
 }
-.overlay-title {
+.work__card {
   position: absolute;
   bottom: 0;
   padding-top: 27px;
@@ -251,7 +251,7 @@ img {
   background: rgba(47, 48, 58, 0.8);
 }
 
-.overlay-text {
+.work__description {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -291,26 +291,26 @@ img {
 
 /*-----------------------------------кнопки портфоліо-------------------------------------------------  */
 
-.text-main {
+.features__description {
   color: var(--text-color);
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
 
-.features {
+.features__container {
   padding-top: 94px;
 }
-.features-container {
+.features__list {
   display: flex;
 }
-.features-container .features-list:not(:last-child) {
+.features__list .features__item:not(:last-child) {
   margin-right: 30px;
 }
-.features-list {
+.features__item {
   min-width: 270px;
 }
-.work-list {
+.work {
   padding-top: 94px;
 }
 
@@ -384,7 +384,7 @@ img {
   padding-bottom: 94px;
 }
 
-.title-main {
+.features__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -405,7 +405,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
-.gallery {
+.work__title {
   margin-bottom: 50px;
   text-align: center;
   font-weight: 700;
@@ -414,7 +414,7 @@ img {
 
   letter-spacing: 0.03em;
 }
-.works-list {
+.work__list {
   display: flex;
   gap: 30px;
   padding-bottom: 94px;
@@ -423,7 +423,7 @@ img {
   background-color: var(--background-secondary);
   padding-bottom: 94px;
 }
-.title-team {
+.team__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -433,23 +433,23 @@ img {
   margin-bottom: 50px;
   padding-top: 94px;
 }
-.team-list {
+.team__list {
   display: flex;
   gap: 30px;
 }
-.name-function {
+.team__card {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.team-background {
+.team__item {
   width: 270px;
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.names {
+.team__name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
