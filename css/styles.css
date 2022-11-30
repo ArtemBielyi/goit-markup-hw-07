@@ -314,14 +314,14 @@ img {
   padding-top: 94px;
 }
 
-.social {
+.social__list {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
 }
 
-.social-link {
+.social__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -333,13 +333,13 @@ img {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-link:hover,
-.social-link:focus {
+.social__link:hover,
+.social__link:focus {
   background-color: var(--accent-color);
   color: #ffffff;
   border-radius: 50%;
 }
-.social-icon {
+.social__icon {
   fill: currentColor;
   transition-property: color;
   transition-duration: 250ms;
@@ -459,7 +459,7 @@ img {
   text-align: center;
 }
 
-.function {
+.team__function {
   margin-top: 10px;
   margin-bottom: 16px;
   text-align: center;
