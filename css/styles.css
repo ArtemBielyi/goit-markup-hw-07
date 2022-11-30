@@ -60,7 +60,7 @@ img {
   color: var(--accent-color);
 }
 
-.header__logo {
+.logo {
   color: var(--logo-header);
   text-decoration: none;
   font-family: "Raleway";
@@ -345,7 +345,7 @@ img {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.title-clients {
+.customer__title {
   padding-top: 94px;
   margin-bottom: 50px;
   font-weight: 700;
@@ -356,7 +356,7 @@ img {
 
   color: var(--titles-color);
 }
-.client-link {
+.customer__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -369,15 +369,15 @@ img {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.client-link:hover,
-.client-link:focus {
+.customer__link:hover,
+.customer__link:focus {
   color: var(--accent-color);
   border: 1px solid var(--accent-color);
 }
-.client-icon {
+.customer__icon {
   fill: currentColor;
 }
-.client-list {
+.customer__list {
   display: flex;
   justify-content: center;
   gap: 30px;
@@ -536,10 +536,10 @@ footer {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.fotter-container {
+.footer__container {
   display: flex;
 }
-.logo-footer {
+.logo__text--white {
   color: var(--logo-footer);
   text-decoration: none;
   font-family: "Raleway";
@@ -564,7 +564,7 @@ footer {
   color: var(--accent-color);
 }
 
-.contacts-footer {
+.footer__contacts {
   color: var(--contacts-footer);
   text-decoration: none;
   font-style: normal;
@@ -575,8 +575,8 @@ footer {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.contacts-footer:hover,
-.contacts-footer:focus {
+.footer__contacts:hover,
+.footer__contacts:focus {
   color: var(--accent-color);
 }
 
@@ -590,10 +590,10 @@ footer {
   margin-top: 9px;
 }
 
-.footer-addres-list {
+.contacts__list {
   margin-right: 70px;
 }
-.connect {
+.social__title {
   display: flex;
   margin-bottom: 20px;
 
@@ -605,7 +605,7 @@ footer {
   color: #ffffff;
 }
 
-.social-footer-link {
+.footer__social__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -618,21 +618,21 @@ footer {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-footer-link:hover,
-.social-footer-link:focus {
+.footer__social__link:hover,
+.footer__social__link:focus {
   background-color: var(--accent-color);
 }
 .social-footer-icon {
   fill: currentColor;
 }
 
-.social-footer {
+.social__list {
   display: flex;
   gap: 10px;
   align-items: center;
 }
 
-.right-info {
+.social {
   margin-top: 12px;
 }
 .footer-subscribe {
