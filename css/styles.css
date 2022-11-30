@@ -97,13 +97,12 @@ img {
   margin-left: auto;
 }
 
-.contact__link {
-  
+.header_contact__link {
+  display: flex;
+  gap: 10px;
 }
 
 .contact__link {
-  display: flex;
-  gap: 10px;
   align-items: center;
   color: var(--text-color);
   font-weight: 500;
@@ -200,18 +199,6 @@ img {
   text-transform: uppercase;
   margin-bottom: 30px;
 }
-
-.button {
-  border-radius: 4px;
-  border: none;
-  align-items: center;
-  text-align: center;
-  font-size: 16px;
-  cursor: pointer;
-  transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 .hero__button {
   display: flex;
   margin-left: auto;
@@ -230,6 +217,19 @@ img {
   background-color: #188ce8;
 }
 
+
+.button {
+  border-radius: 4px;
+  border: none;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 /* -------------------------------------------hero---------------------------------------- */
 
 /* =========чим ми займаємося======= */
@@ -241,9 +241,10 @@ img {
 .item__container {
   display: flex;
   justify-content: center;
+   margin-bottom: 30px;
   height: 120px;
   align-items: center;
-  margin-bottom: 30px;
+ 
   border-radius: 4px;
   background-color: #f5f4fa;
 }
