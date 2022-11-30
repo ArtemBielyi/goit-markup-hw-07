@@ -71,7 +71,7 @@ img {
   letter-spacing: 0.03em;
   padding-top: 24px;
   padding-bottom: 25px;
-  margin-right: 93px;
+  /* margin-right: 93px; */
 }
 
 /* -------------------------------------logo--------------------------------- */
@@ -81,22 +81,30 @@ img {
   display: flex;
   align-items: center;
 }
+.nav {
+  margin-left: 93px;
+}
+
 .nav__list {
   display: flex;
   align-items: center;
   gap: 50px;
 }
-.header__group {
+.contact {
   display: flex;
   align-items: center;
   gap: 30px;
   margin-left: auto;
 }
-.header__contact {
+
+.contact__link {
+  
+}
+
+.contact__link {
   display: flex;
   gap: 10px;
   align-items: center;
-  /* text-decoration: none; */
   color: var(--text-color);
   font-weight: 500;
   font-size: 14px;
@@ -106,11 +114,11 @@ img {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.header__contact:hover,
-.header__contact:focus {
+.contact__link:hover,
+.contact__link:focus {
   color: var(--accent-color);
 }
-.header__icon {
+.contact__icon {
   fill: currentColor;
 }
 
@@ -118,7 +126,7 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  /* text-decoration: none; */
+
   color: inherit;
   font-weight: 500;
   padding-top: 32px;
@@ -138,7 +146,7 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  /* text-decoration: none; */
+
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -193,27 +201,28 @@ img {
   margin-bottom: 30px;
 }
 
-.hero__button {
-  display: flex;
-  padding: 10px 32px;
+.button {
   border-radius: 4px;
   border: none;
-  min-width: 216px;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.85;
-  margin-left: auto;
-  margin-right: auto;
   align-items: center;
   text-align: center;
-  letter-spacing: 0.06em;
-  color: #ffffff;
-  background-color: var(--accent-color);
+  font-size: 16px;
   cursor: pointer;
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.hero__button {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 32px;
+  min-width: 216px;
+  font-weight: 700;
+  line-height: 1.85;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: var(--accent-color);
 }
 
 .hero__button:hover,
@@ -264,27 +273,21 @@ img {
 
 /*-----------------------------------кнопки портфоліо-------------------------------------------------  */
 .button__item {
+  margin-left: 8px;
   padding: 6px 22px;
-  border-radius: 4px;
-  border: none;
-  text-align: center;
-  background-color: var(--button-color);
-  font-family: inherit;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.03em;
-  margin-left: 8px;
-  transition-property: background-color color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  background-color: var(--button-color);
 }
 
 .button__item:hover,
 .button__item:focus {
   color: var(--button-color);
   background-color: var(--accent-color);
-  cursor: pointer;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
@@ -548,29 +551,25 @@ footer {
   line-height: 1.2;
   letter-spacing: 0.03em;
 }
-.address-map {
-  color: #ffffff;
-  text-decoration: none;
-  font-style: normal;
-  font-size: 14px;
+.contacts__map {
   line-height: 1.7;
   letter-spacing: 0.03em;
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  color: #ffffff;
 }
-.address-map:hover,
-.address-map:focus {
+.contacts__map:hover,
+.contacts__map:focus {
   color: var(--accent-color);
 }
 
 .footer__contacts {
-  color: var(--contacts-footer);
-  text-decoration: none;
-  font-style: normal;
-  font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+
+  color: var(--contacts-footer);
+
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -697,7 +696,7 @@ footer {
 }
 .subscribe__button {
   position: relative;
-  border: none;
+
   width: 200px;
   height: 50px;
   padding: 10px 62px 10px 28px;
@@ -707,20 +706,12 @@ footer {
   line-height: 1.85;
 
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
 
   background: #2196f3;
 
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
-  cursor: pointer;
 
   color: #ffffff;
-
-  transition-property: background-color color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .subscribe__button:hover,
@@ -820,21 +811,13 @@ footer {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.85;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
 
-  border: none;
+  letter-spacing: 0.06em;
 
   color: var(--button-color);
   background-color: var(--accent-color);
 
-  cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-form-btn:hover,
 .modal-form-btn:focus {
