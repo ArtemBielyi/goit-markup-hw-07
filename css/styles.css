@@ -877,7 +877,7 @@ footer {
 .modal__group {
   margin-bottom: 20px;
 }
-.modal__form-agreement {
+.modal__agreement {
   display: flex;
   justify-content: center;
   align-items: center;
