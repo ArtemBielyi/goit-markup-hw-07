@@ -4,6 +4,7 @@
 // base styles
 @import "./base/base";
 @import "./base/reset";
+@import "./base/product";
 
 //   components styles
 @import "./components/container";
@@ -11,3 +12,7 @@
 @import "./components/typography";
 
 @import "./components/hero";
+
+@import "./components/button";
+
+@import "./components/header";
