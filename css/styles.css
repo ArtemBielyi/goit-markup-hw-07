@@ -64,14 +64,15 @@ img {
   color: var(--logo-header);
   text-decoration: none;
   font-family: "Raleway";
-  font-style: normal;
+
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+}
+.logo_header {
   padding-top: 24px;
   padding-bottom: 25px;
-  /* margin-right: 93px; */
 }
 
 /* -------------------------------------logo--------------------------------- */
@@ -161,15 +162,9 @@ img {
   bottom: 0;
 }
 
-/* .line {
-  display: block;
-  width: 100%;
-  height: 1px;
-  background-color: #ececec;
-} */
 /* ------------------------------------header------------------------------------------ */
 /* ------------------------------------hero-------------------------------------------- */
-.hero {
+/* .hero {
   max-width: 1600px;
   max-height: 600px;
   margin-left: auto;
@@ -187,7 +182,7 @@ img {
 
   padding-top: 200px;
   padding-bottom: 200px;
-}
+} */
 
 .header {
   border-bottom: 1px solid #ececec;
