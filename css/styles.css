@@ -541,7 +541,7 @@ img {
 .footer__container {
   display: flex;
 }
-.logo__text--white {
+.logo_footer {
   color: var(--logo-footer);
   text-decoration: none;
   font-family: "Raleway";
