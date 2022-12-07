@@ -14,10 +14,11 @@ footer {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   color: #ffffff;
-}
-.contacts__map:hover,
-.contacts__map:focus {
-  color: var(--accent-color);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 .footer__contacts {
@@ -29,10 +30,10 @@ footer {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.footer__contacts:hover,
-.footer__contacts:focus {
-  color: var(--accent-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 .place {
@@ -72,11 +73,13 @@ footer {
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
 }
-.footer__social__link:hover,
-.footer__social__link:focus {
-  background-color: var(--accent-color);
-}
+
 .footer__social__icon {
   fill: currentColor;
 }
@@ -125,18 +128,20 @@ footer {
   color: #ffffff;
 
   transition: outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  &:focus {
+    background: transparent;
+    outline: 1px solid var(--accent-color);
+  }
 }
-.subscribe__mail::placeholder {
-  font-size: 16px;
-  line-height: 1.25;
-  align-items: center;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-}
-.subscribe__mail:focus {
-  background: transparent;
-  outline: 1px solid var(--accent-color);
-}
+
 .subscribe__form {
   display: flex;
   gap: 12px;
@@ -168,9 +173,9 @@ footer {
   letter-spacing: 0.06em;
 
   color: #ffffff;
-}
 
-.subscribe__button:hover,
-.subscribe__button:focus {
-  background-color: #188ce8;
+  &:hover,
+  &:focus {
+    background-color: #188ce8;
+  }
 }
