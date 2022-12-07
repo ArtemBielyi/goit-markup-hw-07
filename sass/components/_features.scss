@@ -1,3 +1,11 @@
+.features__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
 .features__icon {
   width: 70px;
   height: 70px;
@@ -11,4 +19,24 @@
 
   border-radius: 4px;
   background-color: #f5f4fa;
+}
+
+.features__description {
+  color: var(--text-color);
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.features__container {
+  padding-top: 94px;
+}
+.features__list {
+  display: flex;
+}
+.features__list .features__item:not(:last-child) {
+  margin-right: 30px;
+}
+.features__item {
+  min-width: 270px;
 }

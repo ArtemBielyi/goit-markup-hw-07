@@ -1,3 +1,6 @@
+.work {
+  padding-top: 94px;
+}
 .work__item {
   position: relative;
 }
@@ -19,4 +22,19 @@
   text-transform: uppercase;
 
   color: #ffffff;
+}
+
+.work__title {
+  margin-bottom: 50px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+
+  letter-spacing: 0.03em;
+}
+.work__list {
+  display: flex;
+  gap: 30px;
+  padding-bottom: 94px;
 }
